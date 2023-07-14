@@ -80,10 +80,55 @@ h1{
 textarea {width: 90%;}
 section {padding: 20px;}
 footer {padding: 20px;}
-@media only screen and (max-width: 680px) {
+
+
+@media only screen and (max-width: 480px) {
     .Container {
       width: 100%;
       padding: 2em;
+      gap: 5rem;
+    }
+    #NavBar {
+        width: 100%;
+    }
+    form {
+        width: 100%
+    };
+    section {
+        width: 100%;
     }
   }
 
+  @media only screen and (max-width: 768px) {
+    .Container {
+      width: 100%;
+      padding: 2em;
+      gap: 5rem;
+    }
+    #NavBar {
+        width: 100%;
+    }
+    form {
+        width: 100%
+    };
+    section {
+        width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .Container {
+      width: 100%;
+      padding: 2em;
+      gap: 5rem;
+    }
+    #NavBar {
+        width: 100%;
+    }
+    form {
+        width: 100%
+    };
+    section {
+        width: 100%;
+    }
+  }
