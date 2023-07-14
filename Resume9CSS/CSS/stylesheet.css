@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500&display=swap');
+
+* {margin: 5px; padding: 5px; box-sizing: border-box;}
+
+html{background-color:rgb(49, 128, 176);
+    font-size: 12px;
+    font-family: Nunito;
+    color: rgb(240, 234, 227);
+}
+
+.Container {
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    padding: 2rem;
+    background-color: rgb(8, 135, 104);
+    grid-template-columns: 1fr 1fr;
+    border-radius: 10px;
+    border: 2px solid rgb(248, 243, 237);
+
+}
+
+.Profile {
+    grid-column: 1 / -1;
+    margin-bottom: 2rem;
+
+}
+
+.Profile_Info {
+    display: flex;
+    gap: 5rem
+
+}
+
+.Profile_Pic {
+    max-width: 250px;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+}
+
+.Profile_Bio {
+    font-size: 20px;
+    padding: 2px;
+}
+
+.Profile_Bio2 {
+    font-size: 15px;
+    padding: 2px;
+}
+
+
+#navbar {
+   position: fixed;
+   background-color:rgb(235, 228, 220);
+   display: flex;
+   top: 10px;
+   width: 90%;
+   margin: 0 Auto;
+   text-align: center;
+   align-items: center;
+  }
+  
+  header {padding: 10px; margin: 20px;}
+  a {color: black;}
+ 
+  #Education, #Skills, #Experience, #Contact {color: rgb(8, 230, 174);}
+
+  form { 
+        padding: 2rem;
+        border-radius: 1rem;
+        background-color: rgb(8, 135, 104);
+        border: 4px solid hsl(0, 0%, 90%);
+      }
+  
+textarea {width: 90%;}
+section {padding: 20px;}
+footer {padding: 20px;}
+
+
+@media only screen and (max-width: 480px) {
+    .Container {
+      width: 100%;
+      padding: 2em;
+      gap: 5rem;
+    }
+    #NavBar {
+        width: 100%;
+    }
+    form {
+        width: 100%
+    };
+    section {
+        width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .Container {
+      width: 100%;
+      padding: 2em;
+      gap: 5rem;
+    }
+    #NavBar {
+        width: 100%;
+    }
+    form {
+        width: 100%
+    };
+    section {
+        width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .Container {
+      width: 100%;
+      padding: 2em;
+      gap: 5rem;
+    }
+    #NavBar {
+        width: 100%;
+    }
+    form {
+        width: 100%
+    };
+    section {
+        width: 100%;
+    }
+  }
